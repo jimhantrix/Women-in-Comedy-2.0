@@ -1,0 +1,11 @@
+{
+  "name": "new_women_in_comedy",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "postinstall": "cd client && yarn install",
+    "rails-server": "echo 'visit http://localhost:3000/hello_world' && bundle exec foreman start -f Procfile.dev",
+    "test": "rspec",
+    "start": "bundle exec foreman start -f Procfile.dev"
+  }
+}
