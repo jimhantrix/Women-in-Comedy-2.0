@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   get 'hello_world', to: 'hello_world#index'
+  get '/', to: 'hello_world#home'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
