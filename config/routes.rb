@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get 'hello_world', to: 'hello_world#index'
 
 
+  get 'hw', to: 'resdan_world#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

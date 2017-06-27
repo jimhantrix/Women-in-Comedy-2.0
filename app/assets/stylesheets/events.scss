@@ -1,0 +1,35 @@
+@import './palette.scss';
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.split-left {
+  width: 30%;
+  height: 100%;
+  color: $color4
+}
+
+.split-center {
+  width: 30%;
+  height: 100%;
+  color: $color3
+}
+
+.split-right {
+  width: 30%;
+  height: 100%;
+  color: $color4
+}
