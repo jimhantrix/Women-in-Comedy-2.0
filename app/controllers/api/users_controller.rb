@@ -10,4 +10,11 @@ class Api::UsersController < ApplicationController
 		render 'show.json.jbuilder'
 	end
 
+	def update
+		
+	end
+
+	def destroy
+	end
+
 end
