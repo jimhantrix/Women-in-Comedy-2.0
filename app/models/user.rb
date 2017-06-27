@@ -10,3 +10,4 @@ class User < ApplicationRecord
   has_many :connection_requests, :foreign_key => :receiver
   has_many :users, :through => :connection_requests, :source => :sender
 end
+
