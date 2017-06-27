@@ -6,6 +6,6 @@ class HelloWorldController < ApplicationController
   end
 
   def home
-
+    render "home.html.erb"
   end
 end
