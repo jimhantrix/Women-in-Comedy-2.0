@@ -5,7 +5,9 @@ class HelloWorldController < ApplicationController
     @hello_world_props = { name: "Stranger" }
   end
 
+
   def home
     render "home.html.erb"
   end
+
 end
