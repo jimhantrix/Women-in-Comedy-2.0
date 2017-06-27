@@ -5,6 +5,7 @@ class HelloWorldController < ApplicationController
     @hello_world_props = { name: "Stranger" }
   end
 
+
   def home
   	@event_page_props = {
       currentUser: {
@@ -34,4 +35,7 @@ class HelloWorldController < ApplicationController
       ]
   	}
   end
+
+  
+
 end
