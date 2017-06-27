@@ -6,6 +6,8 @@ export default class EventsPage extends Component {
 			<div>
 				<h1>Events Page</h1>
 				< AllUpcomingEvents />
+				{this.props.currentUser.name}
+				
 			</div>
 		);
 
